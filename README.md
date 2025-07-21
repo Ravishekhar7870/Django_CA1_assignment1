@@ -57,3 +57,33 @@ This is a simple Django-based university portal built as part of a CA1 assignmen
 ```bash
 git clone https://github.com/Ravishekhar7870/Django_CA1_assignment1.git
 cd Django_CA1_assignment1
+```
+### 2.Create Virtual Environment
+```bash
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+```
+### 3. Install Django
+```bash
+pip install django
+```
+### 4. Run the Server
+```bash
+python manage.py runserver
+```
+### 5. Visit
+```bash
+(http://127.0.0.1:8000/student/101/
+
+http://127.0.0.1:8000/subjects/
+
+http://127.0.0.1:8000/feedback/)
+```
+### 6. Running test
+```bash
+python manage.py test
+
+```
+
+
+
